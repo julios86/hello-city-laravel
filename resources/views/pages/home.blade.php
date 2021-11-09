@@ -4,16 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>About Us | Hello julios</title>
+        <title>Hello julios</title>
 
 
 
     </head>
     <body >
-       <p>Built with &hearts; by Jules FASSINOU</p>
-       <p><a href="/"> Revenir à la page d'accueil</a></p>
+       <h1>Hello from Quebec!</h1>
+       <p> It's currently {{ date('h:i A')}}.</p>
        <footer>
-           <p>&copy; Copyright {{ date('Y')}} &middot; <a href="/about-us">About Us</a></p>
+           <p>
+               &copy; Copyright {{ date('Y')}}
+               &middot; <a href="/about-us">About Us</a>
+            </p>
        </footer>
     </body>
 </html>

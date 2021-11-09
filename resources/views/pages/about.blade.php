@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello julios</title>
+        <title>About Us | Hello julios</title>
 
 
 
@@ -13,7 +13,7 @@
        <p>Built with &hearts; by Jules FASSINOU</p>
        <p><a href="/"> Revenir à la page d'accueil</a></p>
        <footer>
-           <p>&copy; Copyright {{ date('Y')}} &middot; <a href="#">About Us</a></p>
+           <p>&copy; Copyright {{ date('Y')}} &middot; </p>
        </footer>
     </body>
 </html>
